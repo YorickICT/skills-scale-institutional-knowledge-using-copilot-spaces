@@ -1,16 +1,19 @@
 # OctoAcme Project Management Docs
 
-This folder contains OctoAcme's project management guidance. Use this README as the entry point to find the process that fits your work and understand how the processes connect across a project's lifecycle.
+This folder contains the core project management guidance used by OctoAcme. It is intended to be the entry point for understanding how initiatives are initiated, planned, delivered, and improved over time.
 
 ## How OctoAcme manages projects
 
-OctoAcme uses a customer-first, iterative approach with clear ownership, data-informed decisions, and a focus on psychological safety and continuous learning. A Project Manager (PM) coordinates delivery, schedules, risks, and communication; the Product Manager (PdM) defines outcomes, prioritizes work, and measures success. Developers build and test the solution, QA validates quality and acceptance criteria, and stakeholders provide input and approvals.
+OctoAcme uses a customer-first, iterative approach with clear ownership, data-informed decisions, and a focus on psychological safety and continuous learning. The project lifecycle is designed to keep work aligned to value while maintaining transparency and shared accountability.
 
-The lifecycle begins with **project initiation**: validate the business need, define measurable outcomes, identify stakeholders and resources, and make a go/no-go decision. Once approved, **project planning** turns the initiative into a prioritized backlog, estimates, Definition of Done, milestone and release plan, and a record of risks and dependencies.
+- Project initiation: validate the business problem, confirm stakeholders and success metrics, and decide whether to move forward with planning.
+- Project planning: break the work into a backlog, define scope, estimate effort, set milestones, and identify dependencies and risks.
+- Execution and tracking: run the work in small, testable increments, use a project board to track status, hold standups and delivery reviews, and monitor progress toward milestones.
+- Risk management and communication: maintain a risk register, identify blockers early, and communicate status and escalations through clear stakeholder updates.
+- Release and deployment: confirm quality gates, prepare release notes, deploy with smoke tests and rollback planning, and validate impact after release.
+- Retrospective and continuous improvement: capture lessons learned, document action items, and use those improvements to strengthen future delivery.
 
-During **execution and tracking**, the team works in small increments, tracks work on a project board, reviews progress through regular team and delivery syncs, and uses demos to inspect outcomes. Work is validated with appropriate unit, integration, end-to-end, security, and manual testing. Risks and dependencies are monitored and escalated through defined channels, while stakeholders receive regular updates.
-
-For **release and deployment**, the team confirms acceptance criteria, passing CI and security scans, release notes, smoke tests, and rollback or mitigation plans before deployment. Post-deployment verification and stakeholder communication help confirm the release is healthy. After sprints, releases, milestones, or incidents, **retrospectives and continuous improvement** capture learnings and turn a small number of prioritized actions into owned, trackable work.
+Project roles are clearly defined so that delivery is coordinated across product, project, engineering, and stakeholder groups. The Project Manager and Product Lead keep the work moving, while developers and QA ensure the quality and readiness of each increment.
 
 ## Process documents
 
@@ -21,4 +24,4 @@ For **release and deployment**, the team confirms acceptance criteria, passing C
 - [Risk Management & Communication](octoacme-risks-and-communication.md) — Maintain the risk register, communicate status, and follow escalation paths.
 - [Release & Deployment Guide](octoacme-release-and-deployment.md) — Prepare, deploy, verify, announce, and if needed roll back a release.
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) — Capture learnings and track improvement actions after delivery milestones or incidents.
-- [OctoAcme Personas](octoacme-roles-and-personas.md) — More detail on Developer, Product Manager, and Project Manager responsibilities and communication.
+- [OctoAcme Personas](octoacme-roles-and-personas.md) — Detail on Developer, Product Manager, and Project Manager responsibilities and communication.
